@@ -1,8 +1,15 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 const MyContact = () => {
   const form = useRef();
+
+  const [formData, setFormData] = useState({
+    from_name: "",
+    from_email: "",
+    message: "",
+  });
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -16,12 +23,26 @@ const MyContact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          setFormData({
+            from_name: "",
+            from_email: "",
+            message: "",
+          });
         },
         (error) => {
           console.log(error.text);
         },
       );
   };
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
   return (
     <section className="contactSection" id="contact">
       <div className="contact-box">
@@ -38,6 +59,8 @@ const MyContact = () => {
               className="field"
               placeholder="Your Name"
               name="from_name"
+              value={formData.from_name}
+              onChange={handleChange}
               required
             />
             <input
@@ -45,6 +68,8 @@ const MyContact = () => {
               className="field"
               placeholder="Your Email"
               name="from_email"
+              value={formData.from_email}
+              onChange={handleChange}
               required
             />
             <textarea
@@ -52,6 +77,8 @@ const MyContact = () => {
               name="message"
               rows="4"
               placeholder="Write a Message"
+              value={formData.message}
+              onChange={handleChange}
               required
             ></textarea>
             <button type="submit" value="Send" className="btn">
