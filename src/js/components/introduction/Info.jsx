@@ -1,3 +1,5 @@
+import personalImage from "../../../assets/img/valeria_image.jpg";
+
 const MyIntro = () => {
   return (
     <section className="mainInfo" id="personal">
@@ -11,11 +13,7 @@ const MyIntro = () => {
           captivating and user-friendly websites.
         </p>
       </div>
-      <img
-        className="personal_img"
-        src="../../../assets/img/valeria_image.jpg"
-        alt=""
-      />
+      <img className="personal_img" src={personalImage} alt="" />
     </section>
   );
 };

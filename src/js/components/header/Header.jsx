@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
+import menuImage from "../../../assets/img/menu.png"
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -55,7 +56,7 @@ const Navbar = () => {
 
         <img
           className="mobMenu"
-          src="../../../assets/img/menu.png"
+          src={menuImage}
           alt="menu"
           onClick={() => setShowMenu(!showMenu)}
         />

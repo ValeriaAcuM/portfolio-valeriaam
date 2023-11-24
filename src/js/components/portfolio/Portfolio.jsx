@@ -1,3 +1,9 @@
+import cetavImg from "../../../assets/img/cetav.jpg";
+import plantsImg from "../../../assets/img/plants.jpg";
+import dadJokesImg from "../../../assets/img/dadJokes.jpg";
+import silvestreImg from "../../../assets/img/silvestre.jpg";
+import greenPlaceImg from "../../../assets/img/greenPlace.jpg";
+
 const MyPortfolio = () => {
   return (
     <section className="portfolioSection" id="portfolio">
@@ -15,11 +21,7 @@ const MyPortfolio = () => {
 
       <div className="projectsSection">
         <div className="container work-wrap">
-          <img
-            className="imgProject"
-            src="../../../assets/img/cetav.jpg"
-            alt=""
-          />
+          <img className="imgProject" src={cetavImg} alt="" />
           <div className="infoProjects cetav">
             <p className="nameProject">CETAV WebPage</p>
             <div>
@@ -43,11 +45,7 @@ const MyPortfolio = () => {
 
       <div className="projectsSection">
         <div className="container work-wrap">
-          <img
-            className="imgProject"
-            src="../../../assets/img/plants.jpg"
-            alt=""
-          />
+          <img className="imgProject" src={plantsImg} alt="" />
           <div className="infoProjects">
             <p className="nameProject">The perfect plant for your App</p>
             <div>
@@ -72,11 +70,7 @@ const MyPortfolio = () => {
 
       <div className="projectsSection">
         <div className="container work-wrap">
-          <img
-            className="imgProject"
-            src="../../../assets/img/dadJokes.jpg"
-            alt=""
-          />
+          <img className="imgProject" src={dadJokesImg} alt="" />
           <div className="infoProjects">
             <p className="nameProject">Store Dad Jokes</p>
             <div>
@@ -103,11 +97,7 @@ const MyPortfolio = () => {
 
       <div className="projectsSection">
         <div className="container work-wrap">
-          <img
-            className="imgProject"
-            src="../../../assets/img/silvestre.jpg"
-            alt=""
-          />
+          <img className="imgProject" src={silvestreImg} alt="" />
           <div className="infoProjects restaurant">
             <p className="nameProject">The Restaurant</p>
             <div>
@@ -133,11 +123,7 @@ const MyPortfolio = () => {
 
       <div className="projectsSection">
         <div className="container work-wrap">
-          <img
-            className="imgProject"
-            src="../../../assets/img/greenPlace.jpg"
-            alt=""
-          />
+          <img className="imgProject" src={greenPlaceImg} alt="" />
           <div className="infoProjects">
             <p className="nameProject">Green Place</p>
             <div>
