@@ -46,7 +46,7 @@ const MyPortfolio = () => {
       <div className="projectsSection">
         <div className="container work-wrap">
           <img className="imgProject" src={plantsImg} alt="" />
-          <div className="infoProjects">
+          <div className="infoProjects plants">
             <p className="nameProject">The perfect plant for your App</p>
             <div>
               <span className="rolTag">Web Developer</span>

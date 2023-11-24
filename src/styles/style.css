@@ -311,7 +311,11 @@ a:visited {
 }
 
 .cetav {
-  margin-right: 26%;
+  margin-right: 40%;
+}
+
+.plants {
+  margin-right: 30%;
 }
 
 .nameProject {
@@ -448,10 +452,11 @@ h3:after {
 }
 
 .socialMedia {
+  align-items: center;
+  justify-content: center;
   width: 55px;
   height: 55px;
-  justify-content: space-between;
-  margin: 4%;
+  margin: 5%;
   cursor: pointer;
 }
 
