@@ -1,6 +1,6 @@
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Header } from "./components/header/Header";
+import { NavbarMenu } from "./components/navbar/Navbar";
 import { Intro } from "./components/introduction/Info";
 import { Skills } from "./components/skills/Skills";
 import { Portfolio } from "./components/portfolio/Portfolio";
@@ -10,7 +10,7 @@ import { Contact } from "./components/contact/Contact";
 const App = () => {
   return (
     <BrowserRouter>
-      <Header />
+      <NavbarMenu />
       <Routes>
         <Route path="/" />
       </Routes>

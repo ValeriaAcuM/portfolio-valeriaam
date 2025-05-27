@@ -1,9 +1,9 @@
-import computerImg from "../../../assets/img/computer.png";
-import uiuxImg from "../../../assets/img/interfaz-de-usuario.png";
-import sofwareImg from "../../../assets/img/software.png";
-import codingImg from "../../../assets/img/coding.png";
-import frameworksImg from "../../../assets/img/frameworks.png";
-import cvDoc from "../../../assets/docs/valeria-acuña_cv.pdf";
+import computerImg from '../../../assets/img/computer.png';
+import uiuxImg from '../../../assets/img/interfaz-de-usuario.png';
+import sofwareImg from '../../../assets/img/software.png';
+import codingImg from '../../../assets/img/coding.png';
+import frameworksImg from '../../../assets/img/frameworks.png';
+import cvDoc from '../../../assets/docs/valeria-acuña_cv.pdf';
 
 const MySkills = () => {
   return (

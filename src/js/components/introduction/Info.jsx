@@ -1,4 +1,4 @@
-import personalImage from "../../../assets/img/valeria_image.jpg";
+import personalImage from '../../../assets/img/valeria_image.jpg';
 
 const MyIntro = () => {
   return (

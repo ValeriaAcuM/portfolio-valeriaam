@@ -1,5 +1,5 @@
-import linkedinImg from "../../../assets/img/linkedin.png";
-import githubImg from "../../../assets/img/github.png";
+import linkedinImg from '../../../assets/img/linkedin.png';
+import githubImg from '../../../assets/img/github.png';
 
 const MyFooter = () => {
   return (

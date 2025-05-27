@@ -1,8 +1,8 @@
-import cetavImg from "../../../assets/img/cetav.jpg";
-import plantsImg from "../../../assets/img/plants.jpg";
-import dadJokesImg from "../../../assets/img/dadJokes.jpg";
-import silvestreImg from "../../../assets/img/silvestre.jpg";
-import greenPlaceImg from "../../../assets/img/greenPlace.jpg";
+import cetavImg from '../../../assets/img/cetav.jpg';
+import plantsImg from '../../../assets/img/plants.jpg';
+import dadJokesImg from '../../../assets/img/dadJokes.jpg';
+import silvestreImg from '../../../assets/img/silvestre.jpg';
+import greenPlaceImg from '../../../assets/img/greenPlace.jpg';
 
 const MyPortfolio = () => {
   return (

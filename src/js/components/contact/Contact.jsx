@@ -1,13 +1,13 @@
-import { useRef, useState } from "react";
-import emailjs from "@emailjs/browser";
+import { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 const MyContact = () => {
   const form = useRef();
 
   const [formData, setFormData] = useState({
-    from_name: "",
-    from_email: "",
-    message: "",
+    from_name: '',
+    from_email: '',
+    message: '',
   });
 
   const sendEmail = (e) => {
@@ -15,23 +15,23 @@ const MyContact = () => {
 
     emailjs
       .sendForm(
-        "service_4jqr6pe",
-        "template_df5ov0d",
+        'service_4jqr6pe',
+        'template_df5ov0d',
         form.current,
-        "YgYT3YEfhbwGlof85",
+        'YgYT3YEfhbwGlof85'
       )
       .then(
         (result) => {
           console.log(result.text);
           setFormData({
-            from_name: "",
-            from_email: "",
-            message: "",
+            from_name: '',
+            from_email: '',
+            message: '',
           });
         },
         (error) => {
           console.log(error.text);
-        },
+        }
       );
   };
 
