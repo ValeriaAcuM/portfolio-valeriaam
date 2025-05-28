@@ -1,7 +1,7 @@
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { NavbarMenu } from "./components/navbar/Navbar";
-import { Intro } from "./components/introduction/Info";
+import { Header } from "./components/header/Header";
 import { Skills } from "./components/skills/Skills";
 import { Portfolio } from "./components/portfolio/Portfolio";
 import { Footer } from "./components/footer/Footer";
@@ -14,7 +14,7 @@ const App = () => {
       <Routes>
         <Route path="/" />
       </Routes>
-      <Intro />
+      <Header />
       <Skills />
       <Portfolio />
       <Contact />
