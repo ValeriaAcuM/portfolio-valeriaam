@@ -1,66 +1,55 @@
-import computerImg from '../../../assets/img/computer.png';
-import uiuxImg from '../../../assets/img/interfaz-de-usuario.png';
-import sofwareImg from '../../../assets/img/software.png';
-import codingImg from '../../../assets/img/coding.png';
-import frameworksImg from '../../../assets/img/frameworks.png';
-import cvDoc from '../../../assets/docs/valeria-acuña_cv.pdf';
+import cvDoc from "../../../assets/docs/valeria-acuña_cv.pdf";
 
 const MySkills = () => {
   return (
-    <section className="skillsSection containerSkills" id="skills">
-      <h1 className="titleMySkills">MY SKILLS</h1>
-      <div className="skillsContent">
-        <img className="computerImg" src={computerImg} alt="" />
-
-        <div className="infoSkillsList">
-          <ul className="skillsItems">
-            <li className="skillsItem">
-              <img className="logosSkills" src={uiuxImg} alt="" />
-              <div className="skillsItemText">
-                <p className="skillsTitle">UI / UX</p>
-                <p>Figma</p>
-              </div>
-            </li>
-
-            <li className="skillsItem">
-              <img className="logosSkills" src={sofwareImg} alt="" />
-              <div className="skillsItemText">
-                <p className="skillsTitle">Software & Applications</p>
-                <p>Node.js</p>
-                <p>MongoDB</p>
-              </div>
-            </li>
-
-            <li className="skillsItem">
-              <img className="logosSkills" src={codingImg} alt="" />
-              <div className="skillsItemText">
-                <p className="skillsTitle">Programming Languajes</p>
-                <p>HTML5</p>
-                <p>CSS3</p>
-                <p>JavaScript</p>
-              </div>
-            </li>
-
-            <li className="skillsItem">
-              <img className="logosSkills" src={frameworksImg} alt="" />
-              <div className="skillsItemText">
-                <p className="skillsTitle">Frameworks & Libraries</p>
-                <p>React.js</p>
-                <p>StoryBook</p>
-                <p>Prettier</p>
-                <p>Next.js</p>
-                <p>Eslint</p>
-                <p>Chakra UI</p>
-              </div>
-            </li>
+    <section id="skills">
+      <div className="skills-container">
+        <div className="skills-column">
+          <h1 className="title-skills">HARD SKILLS</h1>
+          <ul>
+            <li>Figma</li>
+            <li>Miro</li>
+            <li>Canva</li>
+            <li>User Research</li>
+            <li>Empathy Maps</li>
+            <li>User Personas</li>
+            <li>User Flow Diagrams</li>
+            <li>Wireframing</li>
+            <li>Prototyping</li>
+            <li>Usabiliity Testing</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+          </ul>
+        </div>
+        <div className="skills-column">
+          <h2 className="title-skills">SOFT SKILLS</h2>
+          <ul>
+            <li>Fast Learning</li>
+            <li>Effective Communication</li>
+            <li>Teamwork</li>
+            <li>Problem-Solving</li>
+            <li>Aaptability</li>
+            <li>Creativity</li>
+            <li>Leadership</li>
           </ul>
         </div>
       </div>
 
-      <div className="cvSection">
-        <p className="skillsTitle">Click to download my CV!</p>
-        <a className="btn" href={cvDoc} download="Curriculum">
-          CURRICULUM
+      <div className="resume-container">
+        <div className="resume-text">
+          <h3>Click here to see and download my resume.</h3>
+          <p>Available in English and Spanish</p>
+        </div>
+        <a
+          className="resume-btn"
+          href={cvDoc}
+          target="_blank"
+          rel="noopener noreferrer"
+          /* download="Curriculum" */
+        >
+          RESUME
         </a>
       </div>
     </section>
