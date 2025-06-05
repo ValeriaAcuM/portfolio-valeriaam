@@ -3,7 +3,7 @@ import { SiGmail } from "react-icons/si";
 
 const MyIntroduction = () => {
   return (
-    <section className="header" id="personal">
+    <header className="header" id="personal">
       <div className="info-content">
         <span className="name">Valeria Acuña Monge</span>
         <span className="first-occupation">
@@ -34,7 +34,7 @@ const MyIntroduction = () => {
           </a>
         </div>
       </div>
-    </section>
+    </header>
   );
 };
 

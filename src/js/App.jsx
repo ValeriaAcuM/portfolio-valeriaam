@@ -5,7 +5,7 @@ import { Header } from "./components/header/Header";
 import { Skills } from "./components/skills/Skills";
 import { Portfolio } from "./components/portfolio/Portfolio";
 import { Footer } from "./components/footer/Footer";
-import { Contact } from "./components/contact/Contact";
+/* import { Contact } from "./components/contact/Contact"; */
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
       <Header />
       <Skills />
       <Portfolio />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </BrowserRouter>
   );
