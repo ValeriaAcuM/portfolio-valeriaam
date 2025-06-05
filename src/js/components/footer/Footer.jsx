@@ -1,26 +1,5 @@
-/* import linkedinImg from '../../../assets/img/linkedin.png';
-import githubImg from '../../../assets/img/github.png';
-
-const MyFooter = () => {
-  return (
-    <section className="footer">
-      <div className="footerContent">
-        <h4>SOCIAL MEDIA</h4>
-        <a href="https://www.linkedin.com/in/valeria-acuña-monge-98424a28a">
-          <img className="socialMedia" src={linkedinImg} alt="Linkedin" />
-        </a>
-
-        <a href="https://github.com/ValeriaAcuM">
-          <img className="socialMedia" src={githubImg} alt="Github" />
-        </a>
-        <p>Copyright © 2023 Valeria Acuña. </p>
-      </div>
-    </section>
-  );
-}; */
-
 import { MdEmail, MdLocationOn } from "react-icons/md";
-import { FaGraduationCap, FaCertificate } from "react-icons/fa";
+import { FaGraduationCap } from "react-icons/fa";
 
 const MyFooter = () => {
   return (
@@ -56,25 +35,41 @@ const MyFooter = () => {
           <p className="footer-titles">Certifications</p>
           <p className="institution-name">Rocket Girls</p>
           <ul>
-            <li>
-              <FaCertificate />
-              UX for Beginners
-            </li>
-            <li>
-              <FaCertificate />
-              Canva and Advertising Design Strategies for Social Media
-            </li>
-            <li>
-              <FaCertificate />
-              Intermediate Python
-            </li>
+            <li>UX for Beginners</li>
+            <li>Canva and Advertising Design Strategies for Social Media</li>
+            <li>Intermediate Python</li>
           </ul>
           <p className="institution-name">CETAV</p>
           <ul>
-            <li>
-              <FaCertificate />
-              Introduction to Python
-            </li>
+            <li>Introduction to Python</li>
+          </ul>
+        </div>
+
+        <div className="footer-content">
+          <p className="footer-titles">HARD SKILLS</p>
+          <ul>
+            <li>Figma & Miro</li>
+            <li>Canva</li>
+            <li>User Research</li>
+            <li>Empathy Maps</li>
+            <li>User Flow Diagrams</li>
+            <li>Wireframing & Prototyping</li>
+            <li>Usabiliity Testing</li>
+            <li>HTML5 & CSS3</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+
+        <div className="footer-content">
+          <p className="footer-titles">SOFT SKILLS</p>
+          <ul>
+            <li>Fast Learning</li>
+            <li>Effective Communication</li>
+            <li>Teamwork</li>
+            <li>Problem-Solving</li>
+            <li>Aaptability</li>
+            <li>Creativity</li>
+            <li>Leadership</li>
           </ul>
         </div>
       </section>

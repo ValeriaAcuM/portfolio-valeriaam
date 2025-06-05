@@ -18,17 +18,6 @@ const Navbar = () => {
 
           <Link
             activeClass="active"
-            to="skills"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-          >
-            Skills
-          </Link>
-
-          <Link
-            activeClass="active"
             to="portfolio"
             spy={true}
             smooth={true}
@@ -40,13 +29,13 @@ const Navbar = () => {
 
           <Link
             activeClass="active"
-            to="contact"
+            to="resume"
             spy={true}
             smooth={true}
             offset={-100}
             duration={500}
           >
-            Contact
+            Resume
           </Link>
         </div>
       </nav>
