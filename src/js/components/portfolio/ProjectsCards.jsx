@@ -1,11 +1,7 @@
 const ProjectsCards = ({ projects }) => {
   return (
     <section className="card-container">
-      <a
-        href={projects.link}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a href={projects.link} target="_blank" rel="noopener noreferrer">
         <div className="card-body">
           <img className="card-image" src={projects.img} alt={projects.name} />
           <div className="card-content">

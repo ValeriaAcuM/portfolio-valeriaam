@@ -2,7 +2,7 @@ const projects = [
   {
     id: 1,
     name: "The Restaurant",
-    img: "../assets/images/silvestre.png",
+    img: "/assets/images/silvestre.png",
     category: "UI/UX",
     role: "UI/UX",
     tech: "Figma",
@@ -14,7 +14,7 @@ const projects = [
   {
     id: 2,
     name: "Green Place",
-    img: "../assets/images/green-place.png",
+    img: "/assets/images/green-place.png",
     category: "UI/UX",
     role: "UI/UX",
     tech: "Figma",
@@ -26,7 +26,7 @@ const projects = [
   {
     id: 3,
     name: "CETAV WebPage",
-    img: "../assets/images/cetav.jpg",
+    img: "/assets/images/cetav.jpg",
     category: "Web Development",
     role: "Web developer",
     tech: "Next.js, Figma, ChakraUI & StoryBook",
@@ -38,7 +38,7 @@ const projects = [
   {
     id: 4,
     name: "The Perfect Plant",
-    img: "../assets/images/plants.jpg",
+    img: "/assets/images/plants.jpg",
     category: "Web Development",
     role: "Web developer",
     tech: "HTML, CSS, JavaScript, Webpack",
@@ -50,7 +50,7 @@ const projects = [
   {
     id: 5,
     name: "Store Dad Jokes",
-    img: "../assets/images/dadJokes.jpg",
+    img: "/assets/images/dadJokes.jpg",
     category: "Web Development",
     role: "Web developer",
     tech: "HTML, CSS, JavaScript",
@@ -62,7 +62,7 @@ const projects = [
   {
     id: 6,
     name: "Itinerary Planning App",
-    img: "../assets/images/gira.png",
+    img: "/assets/images/gira.png",
     category: "UI/UX",
     role: "UX Designer",
     tech: "Miro",
