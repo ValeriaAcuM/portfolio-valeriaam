@@ -1,23 +1,21 @@
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { NavbarMenu } from "./components/navbar/Navbar";
 import { Header } from "./components/header/Header";
-import { Intro } from "./components/introduction/Info";
-import { Skills } from "./components/skills/Skills";
 import { Portfolio } from "./components/portfolio/Portfolio";
+import { Resume } from "./components/resume/Resume";
 import { Footer } from "./components/footer/Footer";
-import { Contact } from "./components/contact/Contact";
 
 const App = () => {
   return (
     <BrowserRouter>
-      <Header />
+      <NavbarMenu />
       <Routes>
         <Route path="/" />
       </Routes>
-      <Intro />
-      <Skills />
+      <Header />
       <Portfolio />
-      <Contact />
+      <Resume />
       <Footer />
     </BrowserRouter>
   );

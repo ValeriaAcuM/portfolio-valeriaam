@@ -1,122 +1,45 @@
-import { useState } from "react";
-import { Link } from "react-scroll";
-import menuImage from "../../../assets/img/menu.png"
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 
-const Navbar = () => {
-  const [showMenu, setShowMenu] = useState(false);
+const MyIntroduction = () => {
   return (
-    <div className="Header">
-      <nav className="navbar">
-        <div className="navElementsDesktop">
-          <Link
-            activeClass="active"
-            to="personal"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-            className="navListDesktopItem"
+    <header id="personal">
+      <div>
+        <div className="social-icons">
+          <a
+            href="https://www.linkedin.com/in/valeria-acuña-monge"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Home
-          </Link>
-          <Link
-            activeClass="active"
-            to="skills"
-            spy={true}
-            smooth={true}
-            offset={-30}
-            duration={500}
-            className="navListDesktopItem"
+            <FaLinkedin size={50} color="#fff" />
+            <span>Linkedin</span>
+          </a>
+          <a href="mailto:valeacumonge@gmail.com">
+            <SiGmail size={50} color="#fff" />
+            <span>Gmail</span>
+          </a>
+          <a
+            href="https://github.com/ValeriaAcuM"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Curriculum
-          </Link>
-          <Link
-            activeClass="active"
-            to="portfolio"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-            className="navListDesktopItem"
-          >
-            Projects
-          </Link>
-          <Link
-            activeClass="active"
-            to="contact"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-            className="navListDesktopItem"
-          >
-            Contact
-          </Link>
+            <FaGithub size={50} color="#fff" />
+            <span>GitHub</span>
+          </a>
         </div>
+        <p className="name">Valeria Acuña Monge</p>
+      </div>
 
-        <img
-          className="mobMenu"
-          src={menuImage}
-          alt="menu"
-          onClick={() => setShowMenu(!showMenu)}
-        />
-        <div
-          className="navMenu"
-          style={{ display: showMenu ? "flex" : "none" }}
-        >
-          <Link
-            activeClass="active"
-            to="personal"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-            className="listItem"
-            onClick={() => setShowMenu(false)}
-          >
-            Home
-          </Link>
-          <Link
-            activeClass="active"
-            to="skills"
-            spy={true}
-            smooth={true}
-            offset={-30}
-            duration={500}
-            className="listItem"
-          >
-            Curriculum
-          </Link>
-          <Link
-            activeClass="active"
-            to="portfolio"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-            className="listItem"
-          >
-            Projects
-          </Link>
-          <Link
-            activeClass="active"
-            to="contact"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-            className="listItem"
-          >
-            Contact
-          </Link>
-        </div>
-      </nav>
-    </div>
+      <div>
+        <p className="first-occupation">UI/UX DESIGNER</p>
+        <p className="sec-occupation">& DEVELOPER</p>
+      </div>
+    </header>
   );
 };
 
 const Header = () => {
-  return <Navbar />;
+  return <MyIntroduction />;
 };
 
 export { Header };
