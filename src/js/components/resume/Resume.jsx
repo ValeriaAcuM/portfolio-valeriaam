@@ -1,4 +1,4 @@
-import cvDoc from "../../../assets/docs/valeria-acuña_cv.pdf";
+import resumeCvDocument from "../../../assets/documents/cv-resume-valeria-acuña-monge.pdf";
 
 const ResumeDoc = () => {
   return (
@@ -9,8 +9,8 @@ const ResumeDoc = () => {
           <p>Available in English and Spanish</p>
         </div>
         <a
-          className="resume-btn"
-          href={cvDoc}
+          className="resume-anchor"
+          href={resumeCvDocument}
           target="_blank"
           rel="noopener noreferrer"
         >

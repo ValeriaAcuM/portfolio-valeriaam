@@ -21,7 +21,7 @@ const Navbar = () => {
             to="portfolio"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-80}
             duration={500}
           >
             Projects
@@ -32,7 +32,6 @@ const Navbar = () => {
             to="resume"
             spy={true}
             smooth={true}
-            offset={-100}
             duration={500}
           >
             Resume

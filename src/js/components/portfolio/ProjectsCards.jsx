@@ -5,7 +5,6 @@ const ProjectsCards = ({ projects }) => {
         href={projects.link}
         target="_blank"
         rel="noopener noreferrer"
-        /* className="card-link" */
       >
         <div className="card-body">
           <img className="card-image" src={projects.img} alt={projects.name} />

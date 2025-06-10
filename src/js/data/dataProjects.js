@@ -2,7 +2,7 @@ const projects = [
   {
     id: 1,
     name: "The Restaurant",
-    img: "../assets/img/silvestre.jpg",
+    img: "../assets/images/silvestre.png",
     category: "UI/UX",
     role: "UI/UX",
     tech: "Figma",
@@ -14,10 +14,10 @@ const projects = [
   {
     id: 2,
     name: "Green Place",
-    img: "../assets/img/greenPlace.jpg",
-    category: "Web Development, UI/UX",
-    role: "Web developer - UI/UX",
-    tech: "React, Figma, Vite",
+    img: "../assets/images/green-place.png",
+    category: "UI/UX",
+    role: "UI/UX",
+    tech: "Figma",
     company: "CETAV",
     description:
       "Designing and developing a social network from the ground up, I aim to create a platform where users can seamlessly interact in an intuitive manner, complemented by an appealing interface.",
@@ -26,7 +26,7 @@ const projects = [
   {
     id: 3,
     name: "CETAV WebPage",
-    img: "../assets/img/cetav.jpg",
+    img: "../assets/images/cetav.jpg",
     category: "Web Development",
     role: "Web developer",
     tech: "Next.js, Figma, ChakraUI & StoryBook",
@@ -38,7 +38,7 @@ const projects = [
   {
     id: 4,
     name: "The Perfect Plant",
-    img: "../assets/img/plants.jpg",
+    img: "../assets/images/plants.jpg",
     category: "Web Development",
     role: "Web developer",
     tech: "HTML, CSS, JavaScript, Webpack",
@@ -50,7 +50,7 @@ const projects = [
   {
     id: 5,
     name: "Store Dad Jokes",
-    img: "../assets/img/dadJokes.jpg",
+    img: "../assets/images/dadJokes.jpg",
     category: "Web Development",
     role: "Web developer",
     tech: "HTML, CSS, JavaScript",
@@ -62,7 +62,7 @@ const projects = [
   {
     id: 6,
     name: "Itinerary Planning App",
-    img: "../assets/img/gira.png",
+    img: "../assets/images/gira.png",
     category: "UI/UX",
     role: "UX Designer",
     tech: "Miro",
