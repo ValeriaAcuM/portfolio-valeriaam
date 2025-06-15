@@ -1,8 +1,15 @@
+import silvestreImage from "../../assets/images/silvestre.png";
+import greenPlaceImage from "../../assets/images/green-place.png";
+import cetavImage from "../../assets/images/cetav.jpg";
+import plantsImage from "../../assets/images/plants.jpg";
+import dadJokesImage from "../../assets/images/dadJokes.jpg";
+import giraImage from "../../assets/images/gira.png";
+
 const projects = [
   {
     id: 1,
     name: "The Restaurant",
-    img: "../assets/images/silvestre.png",
+    img: [silvestreImage],
     category: "UI/UX",
     role: "UI/UX",
     tech: "Figma",
@@ -14,7 +21,7 @@ const projects = [
   {
     id: 2,
     name: "Green Place",
-    img: "../assets/images/green-place.png",
+    img: [greenPlaceImage],
     category: "UI/UX",
     role: "UI/UX",
     tech: "Figma",
@@ -26,7 +33,7 @@ const projects = [
   {
     id: 3,
     name: "CETAV WebPage",
-    img: "../assets/images/cetav.jpg",
+    img: [cetavImage],
     category: "Web Development",
     role: "Web developer",
     tech: "Next.js, Figma, ChakraUI & StoryBook",
@@ -38,7 +45,7 @@ const projects = [
   {
     id: 4,
     name: "The Perfect Plant",
-    img: "../assets/images/plants.jpg",
+    img: [plantsImage],
     category: "Web Development",
     role: "Web developer",
     tech: "HTML, CSS, JavaScript, Webpack",
@@ -50,7 +57,7 @@ const projects = [
   {
     id: 5,
     name: "Store Dad Jokes",
-    img: "../assets/images/dadJokes.jpg",
+    img: [dadJokesImage],
     category: "Web Development",
     role: "Web developer",
     tech: "HTML, CSS, JavaScript",
@@ -62,7 +69,7 @@ const projects = [
   {
     id: 6,
     name: "Itinerary Planning App",
-    img: "../assets/images/gira.png",
+    img: [giraImage],
     category: "UI/UX",
     role: "UX Designer",
     tech: "Miro",

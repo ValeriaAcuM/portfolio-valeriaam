@@ -1,5 +1,4 @@
 import { createRoot } from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { NavbarMenu } from "./components/navbar/Navbar";
 import { Header } from "./components/header/Header";
 import { Portfolio } from "./components/portfolio/Portfolio";
@@ -8,16 +7,13 @@ import { Footer } from "./components/footer/Footer";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <div>
       <NavbarMenu />
-      <Routes>
-        <Route path="/" />
-      </Routes>
       <Header />
       <Portfolio />
       <Resume />
       <Footer />
-    </BrowserRouter>
+    </div>
   );
 };
 
