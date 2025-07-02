@@ -157,13 +157,13 @@ header {
 .projects-cards {
   margin: 3rem 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
   gap: 1.5rem;
   align-items: stretch;
 }
 
 .card-body {
-  padding: 0.5rem;
+  padding: 0.3rem;
   border: rgb(0, 0, 0) 0.2rem solid;
   border-radius: 0.8rem;
 }
@@ -178,7 +178,7 @@ header {
 
 .card-content h4 {
   border-bottom: var(--color-black) 0.1rem solid;
-  padding: 0.5rem 0;
+  padding: 0.3rem 0;
   margin: 1rem 0;
 }
 
@@ -258,7 +258,7 @@ footer h6 {
   text-transform: uppercase;
   display: inline-block;
   background-color: var(--color-lightGreen);
-  padding: 0 5rem;
+  padding: 0 3rem;
   margin-bottom: 1rem;
 }
 
