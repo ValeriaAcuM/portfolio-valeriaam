@@ -35,7 +35,8 @@ const MyFooter = () => {
           <p className="footer-titles">Certifications</p>
           <p className="institution-name">Rocket Girls</p>
           <ul>
-            <li>UX for Beginners</li>
+            <li>UX/UI</li>
+            <li>Business Process Management</li>
             <li>Canva and Advertising Design Strategies for Social Media</li>
             <li>Intermediate Python</li>
           </ul>
