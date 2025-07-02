@@ -1,5 +1,11 @@
 const FilterBtns = ({ activeCategory, setActiveCategory }) => {
-  const categories = ["All", "UI/UX", "Web Development", "BPM", "Content Creator"];
+  const categories = [
+    "All",
+    "UX/UI",
+    "Web Development",
+    "BPM",
+    "Content Creator",
+  ];
   return (
     <div className="filter-categories">
       {categories.map((category) => (
