@@ -4,6 +4,8 @@ import cetavImage from "../../assets/images/cetav.jpg";
 import plantsImage from "../../assets/images/plants.jpg";
 import dadJokesImage from "../../assets/images/dadJokes.jpg";
 import giraImage from "../../assets/images/gira.png";
+import recyclingImage from "../../assets/images/recycling-center.png";
+import angelsImage from "../../assets/images/angels-flora.png";
 
 const projects = [
   {
@@ -78,6 +80,31 @@ const projects = [
       "App designed to create custom travel itineraries basedon the user's needs and preferences. Applying the full UX process including user research, empathymapping, user personas, and user flows",
     link: "https://miro.com/app/board/uXjVISgmme4=/",
   }
+  ,
+  {
+    id: 7,
+    name: "Recycling Center",
+    img: [recyclingImage],
+    category: "BPM",
+    role: "Business process management",
+    tech: "Miro",
+    company: "Rocket Girls",
+    description:
+      "Business process management for a recycling center, focused on improve the operative efficiency. Mapped the current process, identified inefficiencies, proposed solutions, defined KPIs, and developed a change management plan to improve material traceability and reduce errors.",
+    link: "https://miro.com/app/board/uXjVIrYEqkY=/?share_link_id=570075503722",
+  },
+  {
+    id: 8,
+    name: "Angels Flora Nursery",
+    img: [angelsImage],
+    category: "Content Creator",
+    role: "Social Media Content Creator",
+    tech: "Canva",
+    company: "Rocket Girls",
+    description:
+      "Designed brand identity for a plant nursery, including logo and business card design, selection of typography and color scheme, and creation of social media content. The goal was to create a cohesive and visually appealing brand presence that reflects the nursery's values and offerings.",
+    link: "https://www.canva.com/design/DAGZPMYaRsw/G5OUshUZiZV8HSOT2hwnBw/edit?utm_content=DAGZPMYaRsw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+  },
 ]
 
 export default projects;

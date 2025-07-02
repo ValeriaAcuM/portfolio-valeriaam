@@ -1,4 +1,4 @@
-import resumeCvDocument from "../../../assets/documents/cv-resume-valeria-acuña-monge.pdf";
+import resumeCvDocument from "../../../assets/documents/resume-valeria-acuna-monge.pdf";
 
 const ResumeDoc = () => {
   return (
